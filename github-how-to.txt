@@ -1,0 +1,32 @@
+1. Create the Directory (if not already created)
+	Open Command Prompt (Win + R, then type cmd and press Enter) and run:
+	mkdir D:\me\learn\udemy\udemy-spboot-microservice-eazybytes
+	cd D:\me\learn\udemy\udemy-spboot-microservice-eazybytes
+
+2. Initialize a Git Repository
+	git init
+	This initializes a Git repository in the directory.
+
+
+3. Create a GitHub Repository
+	Go to GitHub and log in.
+	Click on the "+" (top-right corner) → New repository.
+	Enter Repository name (e.g., udemy-spboot-microservice-eazybytes).
+	Choose "Public" or "Private" based on your preference.
+	Do not check "Initialize this repository with a README" (since we're pushing an existing folder).
+	Click Create repository.
+
+git remote add origin https://github.com/shanregs/reference-data-lookup
+
+4. Connect Local Repository to GitHub
+	In Command Prompt, run:
+	git remote add origin https://github.com/shanregs/reference-data-lookup
+	https://github.com/YOUR_GITHUB_USERNAME/udemy-spboot-microservice-eazybytes.git
+
+5. Add Files and Commit
+git add .
+git commit -m "Initial commit"
+
+6. Push to GitHub
+git branch -M main
+git push -u origin main
